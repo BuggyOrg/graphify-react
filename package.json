@@ -1,0 +1,47 @@
+{
+  "name": "@buggyorg/graphify-react",
+  "version": "0.1.0",
+  "description": "React components to display buggy graphs.",
+  "main": "lib/index.js",
+  "scripts": {
+    "build": "rm -rf lib && babel src -d lib",
+    "prepublish": "rm -rf lib && babel src -d lib",
+    "storybook": "start-storybook -p 6006",
+    "deploy-storybook": "storybook-to-ghpages",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BuggyOrg/graphify-react.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/BuggyOrg/graphify-react/issues"
+  },
+  "homepage": "https://github.com/BuggyOrg/graphify-react#readme",
+  "devDependencies": {
+    "@kadira/storybook": "^2.35.3",
+    "@kadira/storybook-deployer": "^1.2.0",
+    "babel-cli": "^6.14.0",
+    "babel-core": "^6.8.0",
+    "babel-plugin-transform-object-assign": "^6.8.0",
+    "babel-preset-es2015": "^6.14.0",
+    "babel-preset-react": "^6.11.1",
+    "babel-preset-stage-0": "^6.5.0",
+    "jest": "^19.0.2",
+    "react": "^15.5.4",
+    "react-dom": "^15.5.4",
+    "react-test-renderer": "^15.5.4",
+    "storyshots": "^3.2.2"
+  },
+  "peerDependencies": {
+    "react": "^15.5.4",
+    "react-dom": "^15.5.4"
+  },
+  "dependencies": {
+    "calculate-size": "^1.1.1",
+    "graphify-node": "^1.0.0",
+    "prop-types": "^15.5.8"
+  }
+}
