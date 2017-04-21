@@ -183,6 +183,7 @@ function RootNode ({ graph, node }) {
 export default function Graph ({ graph }) {
   return (
     <svg
+      xmlns='http://www.w3.org/2000/svg'
       width={graph.width - graph.padding.left - graph.padding.right}
       height={graph.height - graph.padding.top - graph.padding.bottom}
     >
