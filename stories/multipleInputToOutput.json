@@ -1,0 +1,210 @@
+{
+    "id": "root",
+    "children": [
+        {
+            "id": "#cj64v13mt0002baluv27c5a65",
+            "labels": [
+                {
+                    "text": "#cj64v13mt0002baluv27c5a65"
+                }
+            ],
+            "children": [
+                {
+                    "id": "#cj64v13n20004baludxnz4a34",
+                    "labels": [
+                        {
+                            "text": "cc"
+                        }
+                    ],
+                    "children": [
+                        {
+                            "id": "#cj64v13n00003baluprcvy7ut",
+                            "labels": [
+                                {
+                                    "text": "a"
+                                }
+                            ],
+                            "children": [],
+                            "ports": [
+                                {
+                                    "id": "#cj64v13n00003baluprcvy7ut_in_in",
+                                    "meta": {
+                                        "type": "number",
+                                        "name": {
+                                            "port": "in",
+                                            "kind": "input",
+                                            "type": "number",
+                                            "node": "#cj64v13n00003baluprcvy7ut"
+                                        }
+                                    }
+                                },
+                                {
+                                    "id": "#cj64v13n00003baluprcvy7ut_out_out",
+                                    "meta": {
+                                        "type": "number",
+                                        "name": {
+                                            "port": "out",
+                                            "kind": "output",
+                                            "type": "number",
+                                            "node": "#cj64v13n00003baluprcvy7ut"
+                                        }
+                                    }
+                                }
+                            ],
+                            "edges": [],
+                            "meta": {}
+                        }
+                    ],
+                    "ports": [
+                        {
+                            "id": "#cj64v13n20004baludxnz4a34_in_in",
+                            "meta": {
+                                "type": "string",
+                                "name": {
+                                    "port": "in",
+                                    "kind": "input",
+                                    "type": "string",
+                                    "node": "#cj64v13n20004baludxnz4a34"
+                                }
+                            }
+                        },
+                        {
+                            "id": "#cj64v13n20004baludxnz4a34_outA_out",
+                            "meta": {
+                                "type": "string",
+                                "name": {
+                                    "port": "outA",
+                                    "kind": "output",
+                                    "type": "string",
+                                    "node": "#cj64v13n20004baludxnz4a34"
+                                }
+                            }
+                        },
+                        {
+                            "id": "#cj64v13n20004baludxnz4a34_outB_out",
+                            "meta": {
+                                "type": "string",
+                                "name": {
+                                    "port": "outB",
+                                    "kind": "output",
+                                    "type": "string",
+                                    "node": "#cj64v13n20004baludxnz4a34"
+                                }
+                            }
+                        },
+                        {
+                            "id": "#cj64v13n20004baludxnz4a34_outC_out",
+                            "meta": {
+                                "type": "string",
+                                "name": {
+                                    "port": "outC",
+                                    "kind": "output",
+                                    "type": "string",
+                                    "node": "#cj64v13n20004baludxnz4a34"
+                                }
+                            }
+                        }
+                    ],
+                    "edges": [
+                        {
+                            "id": "#cj64v13n20004baludxnz4a34#cj64v13n00003baluprcvy7ut",
+                            "source": "#cj64v13n20004baludxnz4a34",
+                            "sourcePort": "#cj64v13n20004baludxnz4a34_in_in",
+                            "target": "#cj64v13n00003baluprcvy7ut",
+                            "targetPort": "#cj64v13n00003baluprcvy7ut_in_in",
+                            "meta": {
+                                "sourceType": "string",
+                                "targetType": "number",
+                                "sourcePort": {
+                                    "type": "generic",
+                                    "node": "#cj64v13n20004baludxnz4a34",
+                                    "port": "in"
+                                },
+                                "targetPort": {
+                                    "type": "generic",
+                                    "node": "#cj64v13n00003baluprcvy7ut",
+                                    "port": "in"
+                                },
+                                "layer": "dataflow"
+                            }
+                        },
+                        {
+                            "id": "#cj64v13n00003baluprcvy7ut#cj64v13n20004baludxnz4a34",
+                            "source": "#cj64v13n00003baluprcvy7ut",
+                            "sourcePort": "#cj64v13n00003baluprcvy7ut_out_out",
+                            "target": "#cj64v13n20004baludxnz4a34",
+                            "targetPort": "#cj64v13n20004baludxnz4a34_outC_out",
+                            "meta": {
+                                "sourceType": "number",
+                                "targetType": "string",
+                                "sourcePort": {
+                                    "type": "generic",
+                                    "node": "#cj64v13n00003baluprcvy7ut",
+                                    "port": "out"
+                                },
+                                "targetPort": {
+                                    "type": "generic",
+                                    "node": "#cj64v13n20004baludxnz4a34",
+                                    "port": "outC"
+                                },
+                                "layer": "dataflow"
+                            }
+                        }
+                    ],
+                    "meta": {}
+                }
+            ],
+            "ports": [],
+            "edges": [
+                {
+                    "id": "#cj64v13n20004baludxnz4a34#cj64v13n20004baludxnz4a34",
+                    "source": "#cj64v13n20004baludxnz4a34",
+                    "sourcePort": "#cj64v13n20004baludxnz4a34_in_in",
+                    "target": "#cj64v13n20004baludxnz4a34",
+                    "targetPort": "#cj64v13n20004baludxnz4a34_outA_out",
+                    "meta": {
+                        "sourceType": "string",
+                        "targetType": "string",
+                        "sourcePort": {
+                            "type": "generic",
+                            "node": "#cj64v13n20004baludxnz4a34",
+                            "port": "in"
+                        },
+                        "targetPort": {
+                            "type": "generic",
+                            "node": "#cj64v13n20004baludxnz4a34",
+                            "port": "outA"
+                        },
+                        "layer": "dataflow"
+                    }
+                },
+                {
+                    "id": "#cj64v13n20004baludxnz4a34#cj64v13n20004baludxnz4a34",
+                    "source": "#cj64v13n20004baludxnz4a34",
+                    "sourcePort": "#cj64v13n20004baludxnz4a34_in_in",
+                    "target": "#cj64v13n20004baludxnz4a34",
+                    "targetPort": "#cj64v13n20004baludxnz4a34_outB_out",
+                    "meta": {
+                        "sourceType": "string",
+                        "targetType": "string",
+                        "sourcePort": {
+                            "type": "generic",
+                            "node": "#cj64v13n20004baludxnz4a34",
+                            "port": "in"
+                        },
+                        "targetPort": {
+                            "type": "generic",
+                            "node": "#cj64v13n20004baludxnz4a34",
+                            "port": "outB"
+                        },
+                        "layer": "dataflow"
+                    }
+                }
+            ],
+            "meta": {
+                "version": "0.4.0-pre.41"
+            }
+        }
+    ],
+    "edges": []
+}
