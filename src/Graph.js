@@ -5,7 +5,7 @@ function isOutputPort ({ id }) {
   return /.+_out$/.test(id)
 }
 
-function Port ({ port }) {
+function Port ({ graph, port }) {
   return (
     <rect
       x={port.x}
@@ -18,7 +18,7 @@ function Port ({ port }) {
   )
 }
 
-function getPath (e, padding, startsAtParent = null) {
+function getPath (e, padding, startsAtParent = false) {
   let path
   if (startsAtParent) {
     path = 'M ' + e.sourcePoint.x + ' ' + e.sourcePoint.y + ' '
@@ -33,7 +33,7 @@ function getPath (e, padding, startsAtParent = null) {
   return path
 }
 
-function Edge ({ parentNode, edge, padding = { top: 0, left: 0 }, ...other }) {
+function Edge ({ graph, parentNode, edge, padding = { top: 0, left: 0 }, ...other }) {
   let endPoint = edge.targetPoint
   let previousPoint = edge.bendPoints != null && edge.bendPoints.length > 0 ? edge.bendPoints[edge.bendPoints.length - 1] : edge.sourcePoint
   const angle = Math.atan2(endPoint.y - previousPoint.y, endPoint.x - previousPoint.x) * 180 / Math.PI
@@ -92,7 +92,7 @@ function Node ({ graph, node, ...other }) {
         </text>
         {Array.isArray(node.edges) && node.edges.map((edge) => (
           <Edge
-            key={`e-${edge.source}-${edge.target}`}
+            key={`e-${edge.source}@${edge.sourcePort}-${edge.target}@${edge.targetPort}`}
             graph={graph}
             parentNode={node}
             edge={edge}
