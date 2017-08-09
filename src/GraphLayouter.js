@@ -33,10 +33,16 @@ export default class GraphLayouter extends Component {
   }
 
   render () {
-    let { graph } = this.state
+    const { graph } = this.state
+    const {
+      kgraph, // eslint-disable-line
+      ...other
+    } = this.props
+
     return graph != null ? (
       <Graph
         graph={graph}
+        {...other}
       />
     ) : (
       <svg />
