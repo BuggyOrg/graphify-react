@@ -8,7 +8,7 @@
     "prepublish": "rm -rf lib && babel src -d lib",
     "storybook": "start-storybook -p 6006",
     "deploy-storybook": "storybook-to-ghpages",
-    "test": "jest"
+    "test": "standard && jest"
   },
   "repository": {
     "type": "git",
@@ -33,6 +33,7 @@
     "react": "^15.5.4",
     "react-dom": "^15.5.4",
     "react-test-renderer": "^15.5.4",
+    "standard": "^10.0.3",
     "storyshots": "^3.2.2"
   },
   "peerDependencies": {
