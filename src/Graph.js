@@ -34,8 +34,10 @@ function getPath (e, padding, startsAtParent = false) {
 }
 
 function Edge ({ graph, parentNode, edge, padding = { top: 0, left: 0 }, ...other }) {
-  let endPoint = edge.targetPoint
-  let previousPoint = edge.bendPoints != null && edge.bendPoints.length > 0 ? edge.bendPoints[edge.bendPoints.length - 1] : edge.sourcePoint
+  const endPoint = edge.targetPoint
+  const previousPoint = edge.bendPoints != null && edge.bendPoints.length > 0
+    ? edge.bendPoints[edge.bendPoints.length - 1]
+    : (edge.source === parentNode.id ? { x: edge.sourcePoint.x - padding.left, y: edge.sourcePoint.y - padding.top } : edge.sourcePoint)
   const angle = Math.atan2(endPoint.y - previousPoint.y, endPoint.x - previousPoint.x) * 180 / Math.PI
   const color = (edge.meta && edge.meta.style && edge.meta.style.color) || '#333333'
 
