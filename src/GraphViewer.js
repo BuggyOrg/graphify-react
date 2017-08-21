@@ -6,6 +6,12 @@ function translate (x, y, transform) {
   return [transform[0] + x, transform[1] + y, transform[2]]
 }
 
+const styles = {
+  container: {
+    userSelect: 'none'
+  }
+}
+
 export default class GraphViewer extends React.Component {
   constructor (props) {
     super(props)
@@ -24,7 +30,10 @@ export default class GraphViewer extends React.Component {
 
     if (this.state.mouseDown) {
       this.setState({
-        transform: translate(event.clientX - this.state.moveStartPosition.x, event.clientY - this.state.moveStartPosition.y, this.state.transform),
+        transform: translate(
+          (event.clientX - this.state.moveStartPosition.x) / this.state.transform[2],
+          (event.clientY - this.state.moveStartPosition.y) / this.state.transform[2],
+          this.state.transform),
         moveStartPosition: {
           x: event.clientX,
           y: event.clientY
@@ -73,7 +82,7 @@ export default class GraphViewer extends React.Component {
     return (
       <GraphLayouter
         ref={(graph) => { this._graph = graph }}
-        style={this.props.style}
+        style={{ ...styles.container, ...this.props.style }}
         translateX={transform[0]}
         translateY={transform[1]}
         scale={transform[2]}
