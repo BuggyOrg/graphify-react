@@ -2,259 +2,26 @@
 
 exports[`factorial graph 1`] = `
 <svg
-  height={835.9999952316284}
-  width={426.3333309491475}
+  height={554}
+  width={364.5}
   xmlns="http://www.w3.org/2000/svg"
 >
   <g
-    transform="translate(-10 -20)"
+    transform="scale(1) translate(1 1)"
   >
-    <g
-      transform="translate(22 37)"
-    >
-      <rect
-        fillOpacity={0}
-        height={801.9999952316284}
-        stroke="#000"
-        strokeDasharray="10 5"
-        strokeOpacity={0.5}
-        strokeWidth={1}
-        transform="translate(0.5 0.5)"
-        width={402.3333309491475}
-      />
-      <text
-        alignmentBaseline="hanging"
-        fill={null}
-        fontFamily="sans-serif"
-        fontSize={14}
-        opacity={0.5}
-        x={5}
-        y={5}
-      >
-        main
-      </text>
-      <g>
-        <path
-          d="M 211.4999988079071 60 L 211.4999988079071 102.5 "
-          fill="none"
-          opacity={0.8}
-          stroke="#333333"
-          strokeWidth={3}
-        />
-        <path
-          d="M0,0 L0,3 L3,1.5 L0,0"
-          fill="#333333"
-          opacity={0.8}
-          strokeWidth={3}
-          transform="translate(215.9999988079071 102.5) rotate(90) scale(3)"
-        />
-      </g>
-      <g>
-        <path
-          d="M 143.99999940395355 591.4999964237213 L 143.99999940395355 633.9999964237213 "
-          fill="none"
-          opacity={0.8}
-          stroke="#333333"
-          strokeWidth={3}
-        />
-        <path
-          d="M0,0 L0,3 L3,1.5 L0,0"
-          fill="#333333"
-          opacity={0.8}
-          strokeWidth={3}
-          transform="translate(148.49999940395355 633.9999964237213) rotate(90) scale(3)"
-        />
-      </g>
-      <g>
-        <path
-          d="M 143.99999940395355 676.9999964237213 L 143.99999940395355 736.9999952316284 "
-          fill="none"
-          opacity={0.8}
-          stroke="#333333"
-          strokeWidth={3}
-        />
-        <path
-          d="M0,0 L0,3 L3,1.5 L0,0"
-          fill="#333333"
-          opacity={0.8}
-          strokeWidth={3}
-          transform="translate(148.49999940395355 736.9999952316284) rotate(90) scale(3)"
-        />
-      </g>
-      <g>
-        <path
-          d="M 377.8333309491475 -2.5 L 377.8333309491475 711.9999958276749 L 160.6666660706202 711.9999958276749 L 160.6666660706202 736.9999952316284 "
-          fill="none"
-          opacity={0.8}
-          stroke="#333333"
-          strokeWidth={3}
-        />
-        <path
-          d="M0,0 L0,3 L3,1.5 L0,0"
-          fill="#333333"
-          opacity={0.8}
-          strokeWidth={3}
-          transform="translate(165.1666660706202 736.9999952316284) rotate(90) scale(3)"
-        />
-      </g>
-      <g>
-        <path
-          d="M 152.33333273728687 779.9999952316284 L 152.33333273728687 794.4999952316284 "
-          fill="none"
-          opacity={0.8}
-          stroke="#333333"
-          strokeWidth={3}
-        />
-        <path
-          d="M0,0 L0,3 L3,1.5 L0,0"
-          fill="#333333"
-          opacity={0.8}
-          strokeWidth={3}
-          transform="translate(156.83333273728687 794.4999952316284) rotate(90) scale(3)"
-        />
-      </g>
-      <rect
-        fill="white"
-        height={5}
-        stroke="#000"
-        width={5}
-        x={375.3333309491475}
-        y={-5}
-      />
-      <rect
-        fill="black"
-        height={5}
-        stroke="#000"
-        width={5}
-        x={149.83333273728687}
-        y={801.9999952316284}
-      />
+    <g>
       <g
-        transform="translate(129.83333273728687 751.9999952316284)"
-      >
-        <rect
-          fill="#fff"
-          height={23}
-          stroke="#000"
-          strokeWidth={3}
-          width={45}
-        />
-        <text
-          alignmentBaseline="central"
-          fill={null}
-          fontFamily="sans-serif"
-          fontSize={14}
-          textAnchor="middle"
-          x={22.5}
-          y={11.5}
-        >
-          print
-        </text>
-        <rect
-          fill="white"
-          height={5}
-          stroke="#000"
-          width={5}
-          x={11.666666666666671}
-          y={-5}
-        />
-        <rect
-          fill="white"
-          height={5}
-          stroke="#000"
-          width={5}
-          x={28.333333333333336}
-          y={-5}
-        />
-        <rect
-          fill="black"
-          height={5}
-          stroke="#000"
-          width={5}
-          x={20}
-          y={23}
-        />
-      </g>
-      <g
-        transform="translate(113.99999940395355 648.9999964237213)"
-      >
-        <rect
-          fill="#fff"
-          height={23}
-          stroke="#000"
-          strokeWidth={3}
-          width={60}
-        />
-        <text
-          alignmentBaseline="central"
-          fill={null}
-          fontFamily="sans-serif"
-          fontSize={14}
-          textAnchor="middle"
-          x={30}
-          y={11.5}
-        >
-          numToStr
-        </text>
-        <rect
-          fill="white"
-          height={5}
-          stroke="#000"
-          width={5}
-          x={27.5}
-          y={-5}
-        />
-        <rect
-          fill="black"
-          height={5}
-          stroke="#000"
-          width={5}
-          x={27.5}
-          y={23}
-        />
-      </g>
-      <g
-        transform="translate(178.9999988079071 32)"
-      >
-        <rect
-          fill="#fff"
-          height={23}
-          stroke="#000"
-          strokeWidth={3}
-          width={65}
-        />
-        <text
-          alignmentBaseline="central"
-          fill={null}
-          fontFamily="sans-serif"
-          fontSize={14}
-          textAnchor="middle"
-          x={32.5}
-          y={11.5}
-        >
-          std/const
-        </text>
-        <rect
-          fill="black"
-          height={5}
-          stroke="#000"
-          width={5}
-          x={30}
-          y={23}
-        />
-      </g>
-      <g
-        transform="translate(22 115)"
+        transform="translate(20 25)"
       >
         <rect
           fillOpacity={0}
-          height={473.9999964237213}
+          height={504}
           stroke="#000"
           strokeDasharray="10 5"
           strokeOpacity={0.5}
           strokeWidth={1}
           transform="translate(0.5 0.5)"
-          width={320.83333154519397}
+          width={324.5}
         />
         <text
           alignmentBaseline="hanging"
@@ -265,11 +32,11 @@ exports[`factorial graph 1`] = `
           x={5}
           y={5}
         >
-          fac
+          main
         </text>
         <g>
           <path
-            d="M 189.4999988079071 -2.5 L 189.4999988079071 94.99999940395355 L 133.66666607062024 94.99999940395355 L 133.66666607062024 119.9999988079071 "
+            d="M 143.5 48 L 143.5 58"
             fill="none"
             opacity={0.8}
             stroke="#333333"
@@ -280,12 +47,12 @@ exports[`factorial graph 1`] = `
             fill="#333333"
             opacity={0.8}
             strokeWidth={3}
-            transform="translate(138.16666607062024 119.9999988079071) rotate(90) scale(3)"
+            transform="translate(148 58) rotate(90) scale(3)"
           />
         </g>
         <g>
           <path
-            d="M 110.3333327372869 60 L 110.3333327372869 119.9999988079071 "
+            d="M 196 378 L 196 388"
             fill="none"
             opacity={0.8}
             stroke="#333333"
@@ -296,12 +63,12 @@ exports[`factorial graph 1`] = `
             fill="#333333"
             opacity={0.8}
             strokeWidth={3}
-            transform="translate(114.8333327372869 119.9999988079071) rotate(90) scale(3)"
+            transform="translate(200.5 388) rotate(90) scale(3)"
           />
         </g>
         <g>
           <path
-            d="M 121.99999940395355 162.9999988079071 L 121.99999940395355 408.9999964237213 "
+            d="M 196 431 L 196 441"
             fill="none"
             opacity={0.8}
             stroke="#333333"
@@ -312,12 +79,12 @@ exports[`factorial graph 1`] = `
             fill="#333333"
             opacity={0.8}
             strokeWidth={3}
-            transform="translate(126.49999940395355 408.9999964237213) rotate(90) scale(3)"
+            transform="translate(200.5 441) rotate(90) scale(3)"
           />
         </g>
         <g>
           <path
-            d="M 54.5 348.9999976158142 L 54.5 383.99999701976776 L 113.24999940395355 383.99999701976776 L 113.24999940395355 408.9999964237213 "
+            d="M 22.5 0 L 22.5 441 L 181 441 L 181 441"
             fill="none"
             opacity={0.8}
             stroke="#333333"
@@ -328,12 +95,12 @@ exports[`factorial graph 1`] = `
             fill="#333333"
             opacity={0.8}
             strokeWidth={3}
-            transform="translate(117.74999940395355 408.9999964237213) rotate(90) scale(3)"
+            transform="translate(185.5 441) rotate(90) scale(3)"
           />
         </g>
         <g>
           <path
-            d="M 189.4999988079071 -2.5 L 189.4999988079071 305.9999976158142 "
+            d="M 188.5 484 L 188.5 494"
             fill="none"
             opacity={0.8}
             stroke="#333333"
@@ -344,103 +111,7 @@ exports[`factorial graph 1`] = `
             fill="#333333"
             opacity={0.8}
             strokeWidth={3}
-            transform="translate(193.9999988079071 305.9999976158142) rotate(90) scale(3)"
-          />
-        </g>
-        <g>
-          <path
-            d="M 189.4999988079071 -2.5 L 189.4999988079071 94.99999940395355 L 244.6666648785273 94.99999940395355 L 244.6666648785273 119.9999988079071 "
-            fill="none"
-            opacity={0.8}
-            stroke="#333333"
-            strokeWidth={3}
-          />
-          <path
-            d="M0,0 L0,3 L3,1.5 L0,0"
-            fill="#333333"
-            opacity={0.8}
-            strokeWidth={3}
-            transform="translate(249.1666648785273 119.9999988079071) rotate(90) scale(3)"
-          />
-        </g>
-        <g>
-          <path
-            d="M 266.33333154519397 60 L 266.33333154519397 119.9999988079071 "
-            fill="none"
-            opacity={0.8}
-            stroke="#333333"
-            strokeWidth={3}
-          />
-          <path
-            d="M0,0 L0,3 L3,1.5 L0,0"
-            fill="#333333"
-            opacity={0.8}
-            strokeWidth={3}
-            transform="translate(270.83333154519397 119.9999988079071) rotate(90) scale(3)"
-          />
-        </g>
-        <g>
-          <path
-            d="M 255.49999821186066 162.9999988079071 L 255.49999821186066 202.9999988079071 "
-            fill="none"
-            opacity={0.8}
-            stroke="#333333"
-            strokeWidth={3}
-          />
-          <path
-            d="M0,0 L0,3 L3,1.5 L0,0"
-            fill="#333333"
-            opacity={0.8}
-            strokeWidth={3}
-            transform="translate(259.99999821186066 202.9999988079071) rotate(90) scale(3)"
-          />
-        </g>
-        <g>
-          <path
-            d="M 255.49999821186066 245.9999988079071 L 255.49999821186066 280.99999821186066 L 219.4999988079071 280.99999821186066 L 219.4999988079071 305.9999976158142 "
-            fill="none"
-            opacity={0.8}
-            stroke="#333333"
-            strokeWidth={3}
-          />
-          <path
-            d="M0,0 L0,3 L3,1.5 L0,0"
-            fill="#333333"
-            opacity={0.8}
-            strokeWidth={3}
-            transform="translate(223.9999988079071 305.9999976158142) rotate(90) scale(3)"
-          />
-        </g>
-        <g>
-          <path
-            d="M 204.4999988079071 348.9999976158142 L 204.4999988079071 383.99999701976776 L 130.74999940395355 383.99999701976776 L 130.74999940395355 408.9999964237213 "
-            fill="none"
-            opacity={0.8}
-            stroke="#333333"
-            strokeWidth={3}
-          />
-          <path
-            d="M0,0 L0,3 L3,1.5 L0,0"
-            fill="#333333"
-            opacity={0.8}
-            strokeWidth={3}
-            transform="translate(135.24999940395355 408.9999964237213) rotate(90) scale(3)"
-          />
-        </g>
-        <g>
-          <path
-            d="M 121.99999940395355 451.9999964237213 L 121.99999940395355 466.4999964237213 "
-            fill="none"
-            opacity={0.8}
-            stroke="#333333"
-            strokeWidth={3}
-          />
-          <path
-            d="M0,0 L0,3 L3,1.5 L0,0"
-            fill="#333333"
-            opacity={0.8}
-            strokeWidth={3}
-            transform="translate(126.49999940395355 466.4999964237213) rotate(90) scale(3)"
+            transform="translate(193 494) rotate(90) scale(3)"
           />
         </g>
         <rect
@@ -448,7 +119,7 @@ exports[`factorial graph 1`] = `
           height={5}
           stroke="#000"
           width={5}
-          x={186.9999988079071}
+          x={20}
           y={-5}
         />
         <rect
@@ -456,18 +127,18 @@ exports[`factorial graph 1`] = `
           height={5}
           stroke="#000"
           width={5}
-          x={119.49999940395355}
-          y={473.9999964237213}
+          x={186}
+          y={504}
         />
         <g
-          transform="translate(106.99999940395355 423.9999964237213)"
+          transform="translate(166 456)"
         >
           <rect
             fill="#fff"
             height={23}
             stroke="#000"
             strokeWidth={3}
-            width={30}
+            width={45}
           />
           <text
             alignmentBaseline="central"
@@ -475,11 +146,19 @@ exports[`factorial graph 1`] = `
             fontFamily="sans-serif"
             fontSize={14}
             textAnchor="middle"
-            x={15}
+            x={22.5}
             y={11.5}
           >
-            if
+            print
           </text>
+          <rect
+            fill="white"
+            height={5}
+            stroke="#000"
+            width={5}
+            x={27.5}
+            y={-5}
+          />
           <rect
             fill="white"
             height={5}
@@ -489,222 +168,16 @@ exports[`factorial graph 1`] = `
             y={-5}
           />
           <rect
-            fill="white"
-            height={5}
-            stroke="#000"
-            width={5}
-            x={3.75}
-            y={-5}
-          />
-          <rect
-            fill="white"
-            height={5}
-            stroke="#000"
-            width={5}
-            x={21.25}
-            y={-5}
-          />
-          <rect
             fill="black"
             height={5}
             stroke="#000"
             width={5}
-            x={12.5}
+            x={20}
             y={23}
           />
         </g>
         <g
-          transform="translate(89.49999940395355 134.9999988079071)"
-        >
-          <rect
-            fill="#fff"
-            height={23}
-            stroke="#000"
-            strokeWidth={3}
-            width={65}
-          />
-          <text
-            alignmentBaseline="central"
-            fill={null}
-            fontFamily="sans-serif"
-            fontSize={14}
-            textAnchor="middle"
-            x={32.5}
-            y={11.5}
-          >
-            math/less
-          </text>
-          <rect
-            fill="white"
-            height={5}
-            stroke="#000"
-            width={5}
-            x={41.66666666666667}
-            y={-5}
-          />
-          <rect
-            fill="white"
-            height={5}
-            stroke="#000"
-            width={5}
-            x={18.33333333333334}
-            y={-5}
-          />
-          <rect
-            fill="black"
-            height={5}
-            stroke="#000"
-            width={5}
-            x={30}
-            y={23}
-          />
-        </g>
-        <g
-          transform="translate(77.8333327372869 32)"
-        >
-          <rect
-            fill="#fff"
-            height={23}
-            stroke="#000"
-            strokeWidth={3}
-            width={65}
-          />
-          <text
-            alignmentBaseline="central"
-            fill={null}
-            fontFamily="sans-serif"
-            fontSize={14}
-            textAnchor="middle"
-            x={32.5}
-            y={11.5}
-          >
-            std/const
-          </text>
-          <rect
-            fill="black"
-            height={5}
-            stroke="#000"
-            width={5}
-            x={30}
-            y={23}
-          />
-        </g>
-        <g
-          transform="translate(22 320.9999976158142)"
-        >
-          <rect
-            fill="#fff"
-            height={23}
-            stroke="#000"
-            strokeWidth={3}
-            width={65}
-          />
-          <text
-            alignmentBaseline="central"
-            fill={null}
-            fontFamily="sans-serif"
-            fontSize={14}
-            textAnchor="middle"
-            x={32.5}
-            y={11.5}
-          >
-            std/const
-          </text>
-          <rect
-            fill="black"
-            height={5}
-            stroke="#000"
-            width={5}
-            x={30}
-            y={23}
-          />
-        </g>
-        <g
-          transform="translate(161.9999988079071 320.9999976158142)"
-        >
-          <rect
-            fill="#fff"
-            height={23}
-            stroke="#000"
-            strokeWidth={3}
-            width={85}
-          />
-          <text
-            alignmentBaseline="central"
-            fill={null}
-            fontFamily="sans-serif"
-            fontSize={14}
-            textAnchor="middle"
-            x={42.5}
-            y={11.5}
-          >
-            math/multiply
-          </text>
-          <rect
-            fill="white"
-            height={5}
-            stroke="#000"
-            width={5}
-            x={25}
-            y={-5}
-          />
-          <rect
-            fill="white"
-            height={5}
-            stroke="#000"
-            width={5}
-            x={55}
-            y={-5}
-          />
-          <rect
-            fill="black"
-            height={5}
-            stroke="#000"
-            width={5}
-            x={40}
-            y={23}
-          />
-        </g>
-        <g
-          transform="translate(237.99999821186066 217.9999988079071)"
-        >
-          <rect
-            fill="#fff"
-            height={23}
-            stroke="#000"
-            strokeWidth={3}
-            width={35}
-          />
-          <text
-            alignmentBaseline="central"
-            fill={null}
-            fontFamily="sans-serif"
-            fontSize={14}
-            textAnchor="middle"
-            x={17.5}
-            y={11.5}
-          >
-            fac
-          </text>
-          <rect
-            fill="white"
-            height={5}
-            stroke="#000"
-            width={5}
-            x={15}
-            y={-5}
-          />
-          <rect
-            fill="black"
-            height={5}
-            stroke="#000"
-            width={5}
-            x={15}
-            y={23}
-          />
-        </g>
-        <g
-          transform="translate(225.49999821186066 134.9999988079071)"
+          transform="translate(166 403)"
         >
           <rect
             fill="#fff"
@@ -722,22 +195,14 @@ exports[`factorial graph 1`] = `
             x={30}
             y={11.5}
           >
-            math/add
+            numToStr
           </text>
           <rect
             fill="white"
             height={5}
             stroke="#000"
             width={5}
-            x={16.66666666666666}
-            y={-5}
-          />
-          <rect
-            fill="white"
-            height={5}
-            stroke="#000"
-            width={5}
-            x={38.33333333333333}
+            x={27.5}
             y={-5}
           />
           <rect
@@ -750,7 +215,7 @@ exports[`factorial graph 1`] = `
           />
         </g>
         <g
-          transform="translate(233.83333154519397 32)"
+          transform="translate(111 20)"
         >
           <rect
             fill="#fff"
@@ -778,6 +243,543 @@ exports[`factorial graph 1`] = `
             x={30}
             y={23}
           />
+        </g>
+        <g
+          transform="translate(38.5 73)"
+        >
+          <rect
+            fillOpacity={0}
+            height={300}
+            stroke="#000"
+            strokeDasharray="10 5"
+            strokeOpacity={0.5}
+            strokeWidth={1}
+            transform="translate(0.5 0.5)"
+            width={266}
+          />
+          <text
+            alignmentBaseline="hanging"
+            fill={null}
+            fontFamily="sans-serif"
+            fontSize={14}
+            opacity={0.5}
+            x={5}
+            y={5}
+          >
+            fac
+          </text>
+          <g>
+            <path
+              d="M 105 0 L 105 30 L 245 30 L 245 78 L 212.5 78 L 212.5 78"
+              fill="none"
+              opacity={0.8}
+              stroke="#333333"
+              strokeWidth={3}
+            />
+            <path
+              d="M0,0 L0,3 L3,1.5 L0,0"
+              fill="#333333"
+              opacity={0.8}
+              strokeWidth={3}
+              transform="translate(217 78) rotate(90) scale(3)"
+            />
+          </g>
+          <g>
+            <path
+              d="M 197.5 68 L 197.5 78"
+              fill="none"
+              opacity={0.8}
+              stroke="#333333"
+              strokeWidth={3}
+            />
+            <path
+              d="M0,0 L0,3 L3,1.5 L0,0"
+              fill="#333333"
+              opacity={0.8}
+              strokeWidth={3}
+              transform="translate(202 78) rotate(90) scale(3)"
+            />
+          </g>
+          <g>
+            <path
+              d="M 205 121 L 205 237 L 167 237 L 167 237"
+              fill="none"
+              opacity={0.8}
+              stroke="#333333"
+              strokeWidth={3}
+            />
+            <path
+              d="M0,0 L0,3 L3,1.5 L0,0"
+              fill="#333333"
+              opacity={0.8}
+              strokeWidth={3}
+              transform="translate(171.5 237) rotate(90) scale(3)"
+            />
+          </g>
+          <g>
+            <path
+              d="M 157.5 227 L 157.5 237"
+              fill="none"
+              opacity={0.8}
+              stroke="#333333"
+              strokeWidth={3}
+            />
+            <path
+              d="M0,0 L0,3 L3,1.5 L0,0"
+              fill="#333333"
+              opacity={0.8}
+              strokeWidth={3}
+              transform="translate(162 237) rotate(90) scale(3)"
+            />
+          </g>
+          <g>
+            <path
+              d="M 105 0 L 105 184 L 75 184 L 75 184"
+              fill="none"
+              opacity={0.8}
+              stroke="#333333"
+              strokeWidth={3}
+            />
+            <path
+              d="M0,0 L0,3 L3,1.5 L0,0"
+              fill="#333333"
+              opacity={0.8}
+              strokeWidth={3}
+              transform="translate(79.5 184) rotate(90) scale(3)"
+            />
+          </g>
+          <g>
+            <path
+              d="M 105 0 L 105 78 L 67.5 78 L 67.5 78"
+              fill="none"
+              opacity={0.8}
+              stroke="#333333"
+              strokeWidth={3}
+            />
+            <path
+              d="M0,0 L0,3 L3,1.5 L0,0"
+              fill="#333333"
+              opacity={0.8}
+              strokeWidth={3}
+              transform="translate(72 78) rotate(90) scale(3)"
+            />
+          </g>
+          <g>
+            <path
+              d="M 52.5 68 L 52.5 78"
+              fill="none"
+              opacity={0.8}
+              stroke="#333333"
+              strokeWidth={3}
+            />
+            <path
+              d="M0,0 L0,3 L3,1.5 L0,0"
+              fill="#333333"
+              opacity={0.8}
+              strokeWidth={3}
+              transform="translate(57 78) rotate(90) scale(3)"
+            />
+          </g>
+          <g>
+            <path
+              d="M 60 121 L 60 131"
+              fill="none"
+              opacity={0.8}
+              stroke="#333333"
+              strokeWidth={3}
+            />
+            <path
+              d="M0,0 L0,3 L3,1.5 L0,0"
+              fill="#333333"
+              opacity={0.8}
+              strokeWidth={3}
+              transform="translate(64.5 131) rotate(90) scale(3)"
+            />
+          </g>
+          <g>
+            <path
+              d="M 60 174 L 60 184"
+              fill="none"
+              opacity={0.8}
+              stroke="#333333"
+              strokeWidth={3}
+            />
+            <path
+              d="M0,0 L0,3 L3,1.5 L0,0"
+              fill="#333333"
+              opacity={0.8}
+              strokeWidth={3}
+              transform="translate(64.5 184) rotate(90) scale(3)"
+            />
+          </g>
+          <g>
+            <path
+              d="M 67.5 227 L 67.5 237 L 148 237 L 148 237"
+              fill="none"
+              opacity={0.8}
+              stroke="#333333"
+              strokeWidth={3}
+            />
+            <path
+              d="M0,0 L0,3 L3,1.5 L0,0"
+              fill="#333333"
+              opacity={0.8}
+              strokeWidth={3}
+              transform="translate(152.5 237) rotate(90) scale(3)"
+            />
+          </g>
+          <g>
+            <path
+              d="M 157.5 280 L 157.5 290"
+              fill="none"
+              opacity={0.8}
+              stroke="#333333"
+              strokeWidth={3}
+            />
+            <path
+              d="M0,0 L0,3 L3,1.5 L0,0"
+              fill="#333333"
+              opacity={0.8}
+              strokeWidth={3}
+              transform="translate(162 290) rotate(90) scale(3)"
+            />
+          </g>
+          <rect
+            fill="white"
+            height={5}
+            stroke="#000"
+            width={5}
+            x={102.5}
+            y={-5}
+          />
+          <rect
+            fill="black"
+            height={5}
+            stroke="#000"
+            width={5}
+            x={155}
+            y={300}
+          />
+          <g
+            transform="translate(142.5 252)"
+          >
+            <rect
+              fill="#fff"
+              height={23}
+              stroke="#000"
+              strokeWidth={3}
+              width={30}
+            />
+            <text
+              alignmentBaseline="central"
+              fill={null}
+              fontFamily="sans-serif"
+              fontSize={14}
+              textAnchor="middle"
+              x={15}
+              y={11.5}
+            >
+              if
+            </text>
+            <rect
+              fill="white"
+              height={5}
+              stroke="#000"
+              width={5}
+              x={22}
+              y={-5}
+            />
+            <rect
+              fill="white"
+              height={5}
+              stroke="#000"
+              width={5}
+              x={12.5}
+              y={-5}
+            />
+            <rect
+              fill="white"
+              height={5}
+              stroke="#000"
+              width={5}
+              x={3}
+              y={-5}
+            />
+            <rect
+              fill="black"
+              height={5}
+              stroke="#000"
+              width={5}
+              x={12.5}
+              y={23}
+            />
+          </g>
+          <g
+            transform="translate(172.5 93)"
+          >
+            <rect
+              fill="#fff"
+              height={23}
+              stroke="#000"
+              strokeWidth={3}
+              width={65}
+            />
+            <text
+              alignmentBaseline="central"
+              fill={null}
+              fontFamily="sans-serif"
+              fontSize={14}
+              textAnchor="middle"
+              x={32.5}
+              y={11.5}
+            >
+              math/less
+            </text>
+            <rect
+              fill="white"
+              height={5}
+              stroke="#000"
+              width={5}
+              x={37.5}
+              y={-5}
+            />
+            <rect
+              fill="white"
+              height={5}
+              stroke="#000"
+              width={5}
+              x={22.5}
+              y={-5}
+            />
+            <rect
+              fill="black"
+              height={5}
+              stroke="#000"
+              width={5}
+              x={30}
+              y={23}
+            />
+          </g>
+          <g
+            transform="translate(165 40)"
+          >
+            <rect
+              fill="#fff"
+              height={23}
+              stroke="#000"
+              strokeWidth={3}
+              width={65}
+            />
+            <text
+              alignmentBaseline="central"
+              fill={null}
+              fontFamily="sans-serif"
+              fontSize={14}
+              textAnchor="middle"
+              x={32.5}
+              y={11.5}
+            >
+              std/const
+            </text>
+            <rect
+              fill="black"
+              height={5}
+              stroke="#000"
+              width={5}
+              x={30}
+              y={23}
+            />
+          </g>
+          <g
+            transform="translate(125 199)"
+          >
+            <rect
+              fill="#fff"
+              height={23}
+              stroke="#000"
+              strokeWidth={3}
+              width={65}
+            />
+            <text
+              alignmentBaseline="central"
+              fill={null}
+              fontFamily="sans-serif"
+              fontSize={14}
+              textAnchor="middle"
+              x={32.5}
+              y={11.5}
+            >
+              std/const
+            </text>
+            <rect
+              fill="black"
+              height={5}
+              stroke="#000"
+              width={5}
+              x={30}
+              y={23}
+            />
+          </g>
+          <g
+            transform="translate(25 199)"
+          >
+            <rect
+              fill="#fff"
+              height={23}
+              stroke="#000"
+              strokeWidth={3}
+              width={85}
+            />
+            <text
+              alignmentBaseline="central"
+              fill={null}
+              fontFamily="sans-serif"
+              fontSize={14}
+              textAnchor="middle"
+              x={42.5}
+              y={11.5}
+            >
+              math/multiply
+            </text>
+            <rect
+              fill="white"
+              height={5}
+              stroke="#000"
+              width={5}
+              x={47.5}
+              y={-5}
+            />
+            <rect
+              fill="white"
+              height={5}
+              stroke="#000"
+              width={5}
+              x={32.5}
+              y={-5}
+            />
+            <rect
+              fill="black"
+              height={5}
+              stroke="#000"
+              width={5}
+              x={40}
+              y={23}
+            />
+          </g>
+          <g
+            transform="translate(42.5 146)"
+          >
+            <rect
+              fill="#fff"
+              height={23}
+              stroke="#000"
+              strokeWidth={3}
+              width={35}
+            />
+            <text
+              alignmentBaseline="central"
+              fill={null}
+              fontFamily="sans-serif"
+              fontSize={14}
+              textAnchor="middle"
+              x={17.5}
+              y={11.5}
+            >
+              fac
+            </text>
+            <rect
+              fill="white"
+              height={5}
+              stroke="#000"
+              width={5}
+              x={15}
+              y={-5}
+            />
+            <rect
+              fill="black"
+              height={5}
+              stroke="#000"
+              width={5}
+              x={15}
+              y={23}
+            />
+          </g>
+          <g
+            transform="translate(30 93)"
+          >
+            <rect
+              fill="#fff"
+              height={23}
+              stroke="#000"
+              strokeWidth={3}
+              width={60}
+            />
+            <text
+              alignmentBaseline="central"
+              fill={null}
+              fontFamily="sans-serif"
+              fontSize={14}
+              textAnchor="middle"
+              x={30}
+              y={11.5}
+            >
+              math/add
+            </text>
+            <rect
+              fill="white"
+              height={5}
+              stroke="#000"
+              width={5}
+              x={35}
+              y={-5}
+            />
+            <rect
+              fill="white"
+              height={5}
+              stroke="#000"
+              width={5}
+              x={20}
+              y={-5}
+            />
+            <rect
+              fill="black"
+              height={5}
+              stroke="#000"
+              width={5}
+              x={27.5}
+              y={23}
+            />
+          </g>
+          <g
+            transform="translate(20 40)"
+          >
+            <rect
+              fill="#fff"
+              height={23}
+              stroke="#000"
+              strokeWidth={3}
+              width={65}
+            />
+            <text
+              alignmentBaseline="central"
+              fill={null}
+              fontFamily="sans-serif"
+              fontSize={14}
+              textAnchor="middle"
+              x={32.5}
+              y={11.5}
+            >
+              std/const
+            </text>
+            <rect
+              fill="black"
+              height={5}
+              stroke="#000"
+              width={5}
+              x={30}
+              y={23}
+            />
+          </g>
         </g>
       </g>
     </g>
@@ -787,274 +789,41 @@ exports[`factorial graph 1`] = `
 
 exports[`factorial with highlighted nodes 1`] = `
 <svg
-  height={835.9999952316284}
-  width={426.3333309491475}
+  height={554}
+  width={364.5}
   xmlns="http://www.w3.org/2000/svg"
 >
   <g
-    transform="translate(-10 -20)"
+    transform="scale(1) translate(1 1)"
   >
-    <g
-      transform="translate(22 37)"
-    >
-      <rect
-        fillOpacity={0}
-        height={801.9999952316284}
-        stroke="#000"
-        strokeDasharray="10 5"
-        strokeOpacity={0.5}
-        strokeWidth={1}
-        transform="translate(0.5 0.5)"
-        width={402.3333309491475}
-      />
-      <text
-        alignmentBaseline="hanging"
-        fill={null}
-        fontFamily="sans-serif"
-        fontSize={14}
-        opacity={0.5}
-        x={5}
-        y={5}
-      >
-        main
-      </text>
-      <g>
-        <path
-          d="M 211.4999988079071 60 L 211.4999988079071 102.5 "
-          fill="none"
-          opacity={0.8}
-          stroke="#333333"
-          strokeWidth={3}
-        />
-        <path
-          d="M0,0 L0,3 L3,1.5 L0,0"
-          fill="#333333"
-          opacity={0.8}
-          strokeWidth={3}
-          transform="translate(215.9999988079071 102.5) rotate(90) scale(3)"
-        />
-      </g>
-      <g>
-        <path
-          d="M 143.99999940395355 591.4999964237213 L 143.99999940395355 633.9999964237213 "
-          fill="none"
-          opacity={0.8}
-          stroke="#333333"
-          strokeWidth={3}
-        />
-        <path
-          d="M0,0 L0,3 L3,1.5 L0,0"
-          fill="#333333"
-          opacity={0.8}
-          strokeWidth={3}
-          transform="translate(148.49999940395355 633.9999964237213) rotate(90) scale(3)"
-        />
-      </g>
-      <g>
-        <path
-          d="M 143.99999940395355 676.9999964237213 L 143.99999940395355 736.9999952316284 "
-          fill="none"
-          opacity={0.8}
-          stroke="#333333"
-          strokeWidth={3}
-        />
-        <path
-          d="M0,0 L0,3 L3,1.5 L0,0"
-          fill="#333333"
-          opacity={0.8}
-          strokeWidth={3}
-          transform="translate(148.49999940395355 736.9999952316284) rotate(90) scale(3)"
-        />
-      </g>
-      <g>
-        <path
-          d="M 377.8333309491475 -2.5 L 377.8333309491475 711.9999958276749 L 160.6666660706202 711.9999958276749 L 160.6666660706202 736.9999952316284 "
-          fill="none"
-          opacity={0.8}
-          stroke="#333333"
-          strokeWidth={3}
-        />
-        <path
-          d="M0,0 L0,3 L3,1.5 L0,0"
-          fill="#333333"
-          opacity={0.8}
-          strokeWidth={3}
-          transform="translate(165.1666660706202 736.9999952316284) rotate(90) scale(3)"
-        />
-      </g>
-      <g>
-        <path
-          d="M 152.33333273728687 779.9999952316284 L 152.33333273728687 794.4999952316284 "
-          fill="none"
-          opacity={0.8}
-          stroke="#333333"
-          strokeWidth={3}
-        />
-        <path
-          d="M0,0 L0,3 L3,1.5 L0,0"
-          fill="#333333"
-          opacity={0.8}
-          strokeWidth={3}
-          transform="translate(156.83333273728687 794.4999952316284) rotate(90) scale(3)"
-        />
-      </g>
-      <rect
-        fill="white"
-        height={5}
-        stroke="#000"
-        width={5}
-        x={375.3333309491475}
-        y={-5}
-      />
-      <rect
-        fill="black"
-        height={5}
-        stroke="#000"
-        width={5}
-        x={149.83333273728687}
-        y={801.9999952316284}
-      />
+    <g>
       <g
-        transform="translate(129.83333273728687 751.9999952316284)"
-      >
-        <rect
-          fill="#fff"
-          height={23}
-          stroke="#000"
-          strokeWidth={3}
-          width={45}
-        />
-        <text
-          alignmentBaseline="central"
-          fill={null}
-          fontFamily="sans-serif"
-          fontSize={14}
-          textAnchor="middle"
-          x={22.5}
-          y={11.5}
-        >
-          print
-        </text>
-        <rect
-          fill="white"
-          height={5}
-          stroke="#000"
-          width={5}
-          x={11.666666666666671}
-          y={-5}
-        />
-        <rect
-          fill="white"
-          height={5}
-          stroke="#000"
-          width={5}
-          x={28.333333333333336}
-          y={-5}
-        />
-        <rect
-          fill="black"
-          height={5}
-          stroke="#000"
-          width={5}
-          x={20}
-          y={23}
-        />
-      </g>
-      <g
-        transform="translate(113.99999940395355 648.9999964237213)"
-      >
-        <rect
-          fill="#fff"
-          height={23}
-          stroke="#000"
-          strokeWidth={3}
-          width={60}
-        />
-        <text
-          alignmentBaseline="central"
-          fill={null}
-          fontFamily="sans-serif"
-          fontSize={14}
-          textAnchor="middle"
-          x={30}
-          y={11.5}
-        >
-          numToStr
-        </text>
-        <rect
-          fill="white"
-          height={5}
-          stroke="#000"
-          width={5}
-          x={27.5}
-          y={-5}
-        />
-        <rect
-          fill="black"
-          height={5}
-          stroke="#000"
-          width={5}
-          x={27.5}
-          y={23}
-        />
-      </g>
-      <g
-        transform="translate(178.9999988079071 32)"
-      >
-        <rect
-          fill="#fff"
-          height={23}
-          stroke="#000"
-          strokeWidth={3}
-          width={65}
-        />
-        <text
-          alignmentBaseline="central"
-          fill={null}
-          fontFamily="sans-serif"
-          fontSize={14}
-          textAnchor="middle"
-          x={32.5}
-          y={11.5}
-        >
-          std/const
-        </text>
-        <rect
-          fill="black"
-          height={5}
-          stroke="#000"
-          width={5}
-          x={30}
-          y={23}
-        />
-      </g>
-      <g
-        transform="translate(22 115)"
+        transform="translate(20 25)"
       >
         <rect
           fillOpacity={0}
-          height={473.9999964237213}
-          stroke="red"
+          height={504}
+          stroke="#000"
           strokeDasharray="10 5"
           strokeOpacity={0.5}
           strokeWidth={1}
           transform="translate(0.5 0.5)"
-          width={320.83333154519397}
+          width={324.5}
         />
         <text
           alignmentBaseline="hanging"
-          fill="red"
+          fill={null}
           fontFamily="sans-serif"
           fontSize={14}
           opacity={0.5}
           x={5}
           y={5}
         >
-          fac
+          main
         </text>
         <g>
           <path
-            d="M 189.4999988079071 -2.5 L 189.4999988079071 94.99999940395355 L 133.66666607062024 94.99999940395355 L 133.66666607062024 119.9999988079071 "
+            d="M 143.5 48 L 143.5 58"
             fill="none"
             opacity={0.8}
             stroke="#333333"
@@ -1065,12 +834,12 @@ exports[`factorial with highlighted nodes 1`] = `
             fill="#333333"
             opacity={0.8}
             strokeWidth={3}
-            transform="translate(138.16666607062024 119.9999988079071) rotate(90) scale(3)"
+            transform="translate(148 58) rotate(90) scale(3)"
           />
         </g>
         <g>
           <path
-            d="M 110.3333327372869 60 L 110.3333327372869 119.9999988079071 "
+            d="M 196 378 L 196 388"
             fill="none"
             opacity={0.8}
             stroke="#333333"
@@ -1081,12 +850,12 @@ exports[`factorial with highlighted nodes 1`] = `
             fill="#333333"
             opacity={0.8}
             strokeWidth={3}
-            transform="translate(114.8333327372869 119.9999988079071) rotate(90) scale(3)"
+            transform="translate(200.5 388) rotate(90) scale(3)"
           />
         </g>
         <g>
           <path
-            d="M 121.99999940395355 162.9999988079071 L 121.99999940395355 408.9999964237213 "
+            d="M 196 431 L 196 441"
             fill="none"
             opacity={0.8}
             stroke="#333333"
@@ -1097,12 +866,12 @@ exports[`factorial with highlighted nodes 1`] = `
             fill="#333333"
             opacity={0.8}
             strokeWidth={3}
-            transform="translate(126.49999940395355 408.9999964237213) rotate(90) scale(3)"
+            transform="translate(200.5 441) rotate(90) scale(3)"
           />
         </g>
         <g>
           <path
-            d="M 54.5 348.9999976158142 L 54.5 383.99999701976776 L 113.24999940395355 383.99999701976776 L 113.24999940395355 408.9999964237213 "
+            d="M 22.5 0 L 22.5 441 L 181 441 L 181 441"
             fill="none"
             opacity={0.8}
             stroke="#333333"
@@ -1113,12 +882,12 @@ exports[`factorial with highlighted nodes 1`] = `
             fill="#333333"
             opacity={0.8}
             strokeWidth={3}
-            transform="translate(117.74999940395355 408.9999964237213) rotate(90) scale(3)"
+            transform="translate(185.5 441) rotate(90) scale(3)"
           />
         </g>
         <g>
           <path
-            d="M 189.4999988079071 -2.5 L 189.4999988079071 305.9999976158142 "
+            d="M 188.5 484 L 188.5 494"
             fill="none"
             opacity={0.8}
             stroke="#333333"
@@ -1129,103 +898,7 @@ exports[`factorial with highlighted nodes 1`] = `
             fill="#333333"
             opacity={0.8}
             strokeWidth={3}
-            transform="translate(193.9999988079071 305.9999976158142) rotate(90) scale(3)"
-          />
-        </g>
-        <g>
-          <path
-            d="M 189.4999988079071 -2.5 L 189.4999988079071 94.99999940395355 L 244.6666648785273 94.99999940395355 L 244.6666648785273 119.9999988079071 "
-            fill="none"
-            opacity={0.8}
-            stroke="#333333"
-            strokeWidth={3}
-          />
-          <path
-            d="M0,0 L0,3 L3,1.5 L0,0"
-            fill="#333333"
-            opacity={0.8}
-            strokeWidth={3}
-            transform="translate(249.1666648785273 119.9999988079071) rotate(90) scale(3)"
-          />
-        </g>
-        <g>
-          <path
-            d="M 266.33333154519397 60 L 266.33333154519397 119.9999988079071 "
-            fill="none"
-            opacity={0.8}
-            stroke="#333333"
-            strokeWidth={3}
-          />
-          <path
-            d="M0,0 L0,3 L3,1.5 L0,0"
-            fill="#333333"
-            opacity={0.8}
-            strokeWidth={3}
-            transform="translate(270.83333154519397 119.9999988079071) rotate(90) scale(3)"
-          />
-        </g>
-        <g>
-          <path
-            d="M 255.49999821186066 162.9999988079071 L 255.49999821186066 202.9999988079071 "
-            fill="none"
-            opacity={0.8}
-            stroke="#333333"
-            strokeWidth={3}
-          />
-          <path
-            d="M0,0 L0,3 L3,1.5 L0,0"
-            fill="#333333"
-            opacity={0.8}
-            strokeWidth={3}
-            transform="translate(259.99999821186066 202.9999988079071) rotate(90) scale(3)"
-          />
-        </g>
-        <g>
-          <path
-            d="M 255.49999821186066 245.9999988079071 L 255.49999821186066 280.99999821186066 L 219.4999988079071 280.99999821186066 L 219.4999988079071 305.9999976158142 "
-            fill="none"
-            opacity={0.8}
-            stroke="#333333"
-            strokeWidth={3}
-          />
-          <path
-            d="M0,0 L0,3 L3,1.5 L0,0"
-            fill="#333333"
-            opacity={0.8}
-            strokeWidth={3}
-            transform="translate(223.9999988079071 305.9999976158142) rotate(90) scale(3)"
-          />
-        </g>
-        <g>
-          <path
-            d="M 204.4999988079071 348.9999976158142 L 204.4999988079071 383.99999701976776 L 130.74999940395355 383.99999701976776 L 130.74999940395355 408.9999964237213 "
-            fill="none"
-            opacity={0.8}
-            stroke="#333333"
-            strokeWidth={3}
-          />
-          <path
-            d="M0,0 L0,3 L3,1.5 L0,0"
-            fill="#333333"
-            opacity={0.8}
-            strokeWidth={3}
-            transform="translate(135.24999940395355 408.9999964237213) rotate(90) scale(3)"
-          />
-        </g>
-        <g>
-          <path
-            d="M 121.99999940395355 451.9999964237213 L 121.99999940395355 466.4999964237213 "
-            fill="none"
-            opacity={0.8}
-            stroke="#333333"
-            strokeWidth={3}
-          />
-          <path
-            d="M0,0 L0,3 L3,1.5 L0,0"
-            fill="#333333"
-            opacity={0.8}
-            strokeWidth={3}
-            transform="translate(126.49999940395355 466.4999964237213) rotate(90) scale(3)"
+            transform="translate(193 494) rotate(90) scale(3)"
           />
         </g>
         <rect
@@ -1233,7 +906,7 @@ exports[`factorial with highlighted nodes 1`] = `
           height={5}
           stroke="#000"
           width={5}
-          x={186.9999988079071}
+          x={20}
           y={-5}
         />
         <rect
@@ -1241,18 +914,18 @@ exports[`factorial with highlighted nodes 1`] = `
           height={5}
           stroke="#000"
           width={5}
-          x={119.49999940395355}
-          y={473.9999964237213}
+          x={186}
+          y={504}
         />
         <g
-          transform="translate(106.99999940395355 423.9999964237213)"
+          transform="translate(166 456)"
         >
           <rect
             fill="#fff"
             height={23}
             stroke="#000"
             strokeWidth={3}
-            width={30}
+            width={45}
           />
           <text
             alignmentBaseline="central"
@@ -1260,11 +933,19 @@ exports[`factorial with highlighted nodes 1`] = `
             fontFamily="sans-serif"
             fontSize={14}
             textAnchor="middle"
-            x={15}
+            x={22.5}
             y={11.5}
           >
-            if
+            print
           </text>
+          <rect
+            fill="white"
+            height={5}
+            stroke="#000"
+            width={5}
+            x={27.5}
+            y={-5}
+          />
           <rect
             fill="white"
             height={5}
@@ -1274,222 +955,16 @@ exports[`factorial with highlighted nodes 1`] = `
             y={-5}
           />
           <rect
-            fill="white"
-            height={5}
-            stroke="#000"
-            width={5}
-            x={3.75}
-            y={-5}
-          />
-          <rect
-            fill="white"
-            height={5}
-            stroke="#000"
-            width={5}
-            x={21.25}
-            y={-5}
-          />
-          <rect
             fill="black"
             height={5}
             stroke="#000"
             width={5}
-            x={12.5}
+            x={20}
             y={23}
           />
         </g>
         <g
-          transform="translate(89.49999940395355 134.9999988079071)"
-        >
-          <rect
-            fill="#fff"
-            height={23}
-            stroke="#000"
-            strokeWidth={3}
-            width={65}
-          />
-          <text
-            alignmentBaseline="central"
-            fill={null}
-            fontFamily="sans-serif"
-            fontSize={14}
-            textAnchor="middle"
-            x={32.5}
-            y={11.5}
-          >
-            math/less
-          </text>
-          <rect
-            fill="white"
-            height={5}
-            stroke="#000"
-            width={5}
-            x={41.66666666666667}
-            y={-5}
-          />
-          <rect
-            fill="white"
-            height={5}
-            stroke="#000"
-            width={5}
-            x={18.33333333333334}
-            y={-5}
-          />
-          <rect
-            fill="black"
-            height={5}
-            stroke="#000"
-            width={5}
-            x={30}
-            y={23}
-          />
-        </g>
-        <g
-          transform="translate(77.8333327372869 32)"
-        >
-          <rect
-            fill="#fff"
-            height={23}
-            stroke="#000"
-            strokeWidth={3}
-            width={65}
-          />
-          <text
-            alignmentBaseline="central"
-            fill={null}
-            fontFamily="sans-serif"
-            fontSize={14}
-            textAnchor="middle"
-            x={32.5}
-            y={11.5}
-          >
-            std/const
-          </text>
-          <rect
-            fill="black"
-            height={5}
-            stroke="#000"
-            width={5}
-            x={30}
-            y={23}
-          />
-        </g>
-        <g
-          transform="translate(22 320.9999976158142)"
-        >
-          <rect
-            fill="#fff"
-            height={23}
-            stroke="#000"
-            strokeWidth={3}
-            width={65}
-          />
-          <text
-            alignmentBaseline="central"
-            fill={null}
-            fontFamily="sans-serif"
-            fontSize={14}
-            textAnchor="middle"
-            x={32.5}
-            y={11.5}
-          >
-            std/const
-          </text>
-          <rect
-            fill="black"
-            height={5}
-            stroke="#000"
-            width={5}
-            x={30}
-            y={23}
-          />
-        </g>
-        <g
-          transform="translate(161.9999988079071 320.9999976158142)"
-        >
-          <rect
-            fill="#fff"
-            height={23}
-            stroke="#000"
-            strokeWidth={3}
-            width={85}
-          />
-          <text
-            alignmentBaseline="central"
-            fill={null}
-            fontFamily="sans-serif"
-            fontSize={14}
-            textAnchor="middle"
-            x={42.5}
-            y={11.5}
-          >
-            math/multiply
-          </text>
-          <rect
-            fill="white"
-            height={5}
-            stroke="#000"
-            width={5}
-            x={25}
-            y={-5}
-          />
-          <rect
-            fill="white"
-            height={5}
-            stroke="#000"
-            width={5}
-            x={55}
-            y={-5}
-          />
-          <rect
-            fill="black"
-            height={5}
-            stroke="#000"
-            width={5}
-            x={40}
-            y={23}
-          />
-        </g>
-        <g
-          transform="translate(237.99999821186066 217.9999988079071)"
-        >
-          <rect
-            fill="#fff"
-            height={23}
-            stroke="red"
-            strokeWidth={3}
-            width={35}
-          />
-          <text
-            alignmentBaseline="central"
-            fill="red"
-            fontFamily="sans-serif"
-            fontSize={14}
-            textAnchor="middle"
-            x={17.5}
-            y={11.5}
-          >
-            fac
-          </text>
-          <rect
-            fill="white"
-            height={5}
-            stroke="#000"
-            width={5}
-            x={15}
-            y={-5}
-          />
-          <rect
-            fill="black"
-            height={5}
-            stroke="#000"
-            width={5}
-            x={15}
-            y={23}
-          />
-        </g>
-        <g
-          transform="translate(225.49999821186066 134.9999988079071)"
+          transform="translate(166 403)"
         >
           <rect
             fill="#fff"
@@ -1507,22 +982,14 @@ exports[`factorial with highlighted nodes 1`] = `
             x={30}
             y={11.5}
           >
-            math/add
+            numToStr
           </text>
           <rect
             fill="white"
             height={5}
             stroke="#000"
             width={5}
-            x={16.66666666666666}
-            y={-5}
-          />
-          <rect
-            fill="white"
-            height={5}
-            stroke="#000"
-            width={5}
-            x={38.33333333333333}
+            x={27.5}
             y={-5}
           />
           <rect
@@ -1535,7 +1002,7 @@ exports[`factorial with highlighted nodes 1`] = `
           />
         </g>
         <g
-          transform="translate(233.83333154519397 32)"
+          transform="translate(111 20)"
         >
           <rect
             fill="#fff"
@@ -1564,6 +1031,543 @@ exports[`factorial with highlighted nodes 1`] = `
             y={23}
           />
         </g>
+        <g
+          transform="translate(38.5 73)"
+        >
+          <rect
+            fillOpacity={0}
+            height={300}
+            stroke="red"
+            strokeDasharray="10 5"
+            strokeOpacity={0.5}
+            strokeWidth={1}
+            transform="translate(0.5 0.5)"
+            width={266}
+          />
+          <text
+            alignmentBaseline="hanging"
+            fill="red"
+            fontFamily="sans-serif"
+            fontSize={14}
+            opacity={0.5}
+            x={5}
+            y={5}
+          >
+            fac
+          </text>
+          <g>
+            <path
+              d="M 105 0 L 105 30 L 245 30 L 245 78 L 212.5 78 L 212.5 78"
+              fill="none"
+              opacity={0.8}
+              stroke="#333333"
+              strokeWidth={3}
+            />
+            <path
+              d="M0,0 L0,3 L3,1.5 L0,0"
+              fill="#333333"
+              opacity={0.8}
+              strokeWidth={3}
+              transform="translate(217 78) rotate(90) scale(3)"
+            />
+          </g>
+          <g>
+            <path
+              d="M 197.5 68 L 197.5 78"
+              fill="none"
+              opacity={0.8}
+              stroke="#333333"
+              strokeWidth={3}
+            />
+            <path
+              d="M0,0 L0,3 L3,1.5 L0,0"
+              fill="#333333"
+              opacity={0.8}
+              strokeWidth={3}
+              transform="translate(202 78) rotate(90) scale(3)"
+            />
+          </g>
+          <g>
+            <path
+              d="M 205 121 L 205 237 L 167 237 L 167 237"
+              fill="none"
+              opacity={0.8}
+              stroke="#333333"
+              strokeWidth={3}
+            />
+            <path
+              d="M0,0 L0,3 L3,1.5 L0,0"
+              fill="#333333"
+              opacity={0.8}
+              strokeWidth={3}
+              transform="translate(171.5 237) rotate(90) scale(3)"
+            />
+          </g>
+          <g>
+            <path
+              d="M 157.5 227 L 157.5 237"
+              fill="none"
+              opacity={0.8}
+              stroke="#333333"
+              strokeWidth={3}
+            />
+            <path
+              d="M0,0 L0,3 L3,1.5 L0,0"
+              fill="#333333"
+              opacity={0.8}
+              strokeWidth={3}
+              transform="translate(162 237) rotate(90) scale(3)"
+            />
+          </g>
+          <g>
+            <path
+              d="M 105 0 L 105 184 L 75 184 L 75 184"
+              fill="none"
+              opacity={0.8}
+              stroke="#333333"
+              strokeWidth={3}
+            />
+            <path
+              d="M0,0 L0,3 L3,1.5 L0,0"
+              fill="#333333"
+              opacity={0.8}
+              strokeWidth={3}
+              transform="translate(79.5 184) rotate(90) scale(3)"
+            />
+          </g>
+          <g>
+            <path
+              d="M 105 0 L 105 78 L 67.5 78 L 67.5 78"
+              fill="none"
+              opacity={0.8}
+              stroke="#333333"
+              strokeWidth={3}
+            />
+            <path
+              d="M0,0 L0,3 L3,1.5 L0,0"
+              fill="#333333"
+              opacity={0.8}
+              strokeWidth={3}
+              transform="translate(72 78) rotate(90) scale(3)"
+            />
+          </g>
+          <g>
+            <path
+              d="M 52.5 68 L 52.5 78"
+              fill="none"
+              opacity={0.8}
+              stroke="#333333"
+              strokeWidth={3}
+            />
+            <path
+              d="M0,0 L0,3 L3,1.5 L0,0"
+              fill="#333333"
+              opacity={0.8}
+              strokeWidth={3}
+              transform="translate(57 78) rotate(90) scale(3)"
+            />
+          </g>
+          <g>
+            <path
+              d="M 60 121 L 60 131"
+              fill="none"
+              opacity={0.8}
+              stroke="#333333"
+              strokeWidth={3}
+            />
+            <path
+              d="M0,0 L0,3 L3,1.5 L0,0"
+              fill="#333333"
+              opacity={0.8}
+              strokeWidth={3}
+              transform="translate(64.5 131) rotate(90) scale(3)"
+            />
+          </g>
+          <g>
+            <path
+              d="M 60 174 L 60 184"
+              fill="none"
+              opacity={0.8}
+              stroke="#333333"
+              strokeWidth={3}
+            />
+            <path
+              d="M0,0 L0,3 L3,1.5 L0,0"
+              fill="#333333"
+              opacity={0.8}
+              strokeWidth={3}
+              transform="translate(64.5 184) rotate(90) scale(3)"
+            />
+          </g>
+          <g>
+            <path
+              d="M 67.5 227 L 67.5 237 L 148 237 L 148 237"
+              fill="none"
+              opacity={0.8}
+              stroke="#333333"
+              strokeWidth={3}
+            />
+            <path
+              d="M0,0 L0,3 L3,1.5 L0,0"
+              fill="#333333"
+              opacity={0.8}
+              strokeWidth={3}
+              transform="translate(152.5 237) rotate(90) scale(3)"
+            />
+          </g>
+          <g>
+            <path
+              d="M 157.5 280 L 157.5 290"
+              fill="none"
+              opacity={0.8}
+              stroke="#333333"
+              strokeWidth={3}
+            />
+            <path
+              d="M0,0 L0,3 L3,1.5 L0,0"
+              fill="#333333"
+              opacity={0.8}
+              strokeWidth={3}
+              transform="translate(162 290) rotate(90) scale(3)"
+            />
+          </g>
+          <rect
+            fill="white"
+            height={5}
+            stroke="#000"
+            width={5}
+            x={102.5}
+            y={-5}
+          />
+          <rect
+            fill="black"
+            height={5}
+            stroke="#000"
+            width={5}
+            x={155}
+            y={300}
+          />
+          <g
+            transform="translate(142.5 252)"
+          >
+            <rect
+              fill="#fff"
+              height={23}
+              stroke="#000"
+              strokeWidth={3}
+              width={30}
+            />
+            <text
+              alignmentBaseline="central"
+              fill={null}
+              fontFamily="sans-serif"
+              fontSize={14}
+              textAnchor="middle"
+              x={15}
+              y={11.5}
+            >
+              if
+            </text>
+            <rect
+              fill="white"
+              height={5}
+              stroke="#000"
+              width={5}
+              x={22}
+              y={-5}
+            />
+            <rect
+              fill="white"
+              height={5}
+              stroke="#000"
+              width={5}
+              x={12.5}
+              y={-5}
+            />
+            <rect
+              fill="white"
+              height={5}
+              stroke="#000"
+              width={5}
+              x={3}
+              y={-5}
+            />
+            <rect
+              fill="black"
+              height={5}
+              stroke="#000"
+              width={5}
+              x={12.5}
+              y={23}
+            />
+          </g>
+          <g
+            transform="translate(172.5 93)"
+          >
+            <rect
+              fill="#fff"
+              height={23}
+              stroke="#000"
+              strokeWidth={3}
+              width={65}
+            />
+            <text
+              alignmentBaseline="central"
+              fill={null}
+              fontFamily="sans-serif"
+              fontSize={14}
+              textAnchor="middle"
+              x={32.5}
+              y={11.5}
+            >
+              math/less
+            </text>
+            <rect
+              fill="white"
+              height={5}
+              stroke="#000"
+              width={5}
+              x={37.5}
+              y={-5}
+            />
+            <rect
+              fill="white"
+              height={5}
+              stroke="#000"
+              width={5}
+              x={22.5}
+              y={-5}
+            />
+            <rect
+              fill="black"
+              height={5}
+              stroke="#000"
+              width={5}
+              x={30}
+              y={23}
+            />
+          </g>
+          <g
+            transform="translate(165 40)"
+          >
+            <rect
+              fill="#fff"
+              height={23}
+              stroke="#000"
+              strokeWidth={3}
+              width={65}
+            />
+            <text
+              alignmentBaseline="central"
+              fill={null}
+              fontFamily="sans-serif"
+              fontSize={14}
+              textAnchor="middle"
+              x={32.5}
+              y={11.5}
+            >
+              std/const
+            </text>
+            <rect
+              fill="black"
+              height={5}
+              stroke="#000"
+              width={5}
+              x={30}
+              y={23}
+            />
+          </g>
+          <g
+            transform="translate(125 199)"
+          >
+            <rect
+              fill="#fff"
+              height={23}
+              stroke="#000"
+              strokeWidth={3}
+              width={65}
+            />
+            <text
+              alignmentBaseline="central"
+              fill={null}
+              fontFamily="sans-serif"
+              fontSize={14}
+              textAnchor="middle"
+              x={32.5}
+              y={11.5}
+            >
+              std/const
+            </text>
+            <rect
+              fill="black"
+              height={5}
+              stroke="#000"
+              width={5}
+              x={30}
+              y={23}
+            />
+          </g>
+          <g
+            transform="translate(25 199)"
+          >
+            <rect
+              fill="#fff"
+              height={23}
+              stroke="#000"
+              strokeWidth={3}
+              width={85}
+            />
+            <text
+              alignmentBaseline="central"
+              fill={null}
+              fontFamily="sans-serif"
+              fontSize={14}
+              textAnchor="middle"
+              x={42.5}
+              y={11.5}
+            >
+              math/multiply
+            </text>
+            <rect
+              fill="white"
+              height={5}
+              stroke="#000"
+              width={5}
+              x={47.5}
+              y={-5}
+            />
+            <rect
+              fill="white"
+              height={5}
+              stroke="#000"
+              width={5}
+              x={32.5}
+              y={-5}
+            />
+            <rect
+              fill="black"
+              height={5}
+              stroke="#000"
+              width={5}
+              x={40}
+              y={23}
+            />
+          </g>
+          <g
+            transform="translate(42.5 146)"
+          >
+            <rect
+              fill="#fff"
+              height={23}
+              stroke="red"
+              strokeWidth={3}
+              width={35}
+            />
+            <text
+              alignmentBaseline="central"
+              fill="red"
+              fontFamily="sans-serif"
+              fontSize={14}
+              textAnchor="middle"
+              x={17.5}
+              y={11.5}
+            >
+              fac
+            </text>
+            <rect
+              fill="white"
+              height={5}
+              stroke="#000"
+              width={5}
+              x={15}
+              y={-5}
+            />
+            <rect
+              fill="black"
+              height={5}
+              stroke="#000"
+              width={5}
+              x={15}
+              y={23}
+            />
+          </g>
+          <g
+            transform="translate(30 93)"
+          >
+            <rect
+              fill="#fff"
+              height={23}
+              stroke="#000"
+              strokeWidth={3}
+              width={60}
+            />
+            <text
+              alignmentBaseline="central"
+              fill={null}
+              fontFamily="sans-serif"
+              fontSize={14}
+              textAnchor="middle"
+              x={30}
+              y={11.5}
+            >
+              math/add
+            </text>
+            <rect
+              fill="white"
+              height={5}
+              stroke="#000"
+              width={5}
+              x={35}
+              y={-5}
+            />
+            <rect
+              fill="white"
+              height={5}
+              stroke="#000"
+              width={5}
+              x={20}
+              y={-5}
+            />
+            <rect
+              fill="black"
+              height={5}
+              stroke="#000"
+              width={5}
+              x={27.5}
+              y={23}
+            />
+          </g>
+          <g
+            transform="translate(20 40)"
+          >
+            <rect
+              fill="#fff"
+              height={23}
+              stroke="#000"
+              strokeWidth={3}
+              width={65}
+            />
+            <text
+              alignmentBaseline="central"
+              fill={null}
+              fontFamily="sans-serif"
+              fontSize={14}
+              textAnchor="middle"
+              x={32.5}
+              y={11.5}
+            >
+              std/const
+            </text>
+            <rect
+              fill="black"
+              height={5}
+              stroke="#000"
+              width={5}
+              x={30}
+              y={23}
+            />
+          </g>
+        </g>
       </g>
     </g>
   </g>
@@ -1572,81 +1576,26 @@ exports[`factorial with highlighted nodes 1`] = `
 
 exports[`multiple input ports to one output port 1`] = `
 <svg
-  height={244.9999988079071}
-  width={157}
+  height={208}
+  width={160}
   xmlns="http://www.w3.org/2000/svg"
 >
   <g
-    transform="translate(-10 -20)"
+    transform="scale(1) translate(1 1)"
   >
-    <g
-      transform="translate(22 32)"
-    >
-      <rect
-        fillOpacity={0}
-        height={220.9999988079071}
-        stroke="#000"
-        strokeDasharray="10 5"
-        strokeOpacity={0.5}
-        strokeWidth={1}
-        transform="translate(0.5 0.5)"
-        width={133}
-      />
-      <text
-        alignmentBaseline="hanging"
-        fill={null}
-        fontFamily="sans-serif"
-        fontSize={14}
-        opacity={0.5}
-        x={5}
-        y={5}
-      >
-        #cj64v13mt0002baluv27c5a65
-      </text>
-      <g>
-        <path
-          d="M 76.5 104.4999988079071 L 76.5 32 L 46.5 32 L 46.5 94.4999988079071 "
-          fill="none"
-          opacity={0.8}
-          stroke="#333333"
-          strokeWidth={3}
-        />
-        <path
-          d="M0,0 L0,3 L3,1.5 L0,0"
-          fill="#333333"
-          opacity={0.8}
-          strokeWidth={3}
-          transform="translate(51 94.4999988079071) rotate(90) scale(3)"
-        />
-      </g>
-      <g>
-        <path
-          d="M 76.5 104.4999988079071 L 76.5 32 L 61.5 32 L 61.5 94.4999988079071 "
-          fill="none"
-          opacity={0.8}
-          stroke="#333333"
-          strokeWidth={3}
-        />
-        <path
-          d="M0,0 L0,3 L3,1.5 L0,0"
-          fill="#333333"
-          opacity={0.8}
-          strokeWidth={3}
-          transform="translate(66 94.4999988079071) rotate(90) scale(3)"
-        />
-      </g>
+    <g>
       <g
-        transform="translate(22 106.9999988079071)"
+        transform="translate(20 20)"
       >
         <rect
           fillOpacity={0}
-          height={87}
+          height={168}
           stroke="#000"
           strokeDasharray="10 5"
           strokeOpacity={0.5}
           strokeWidth={1}
           transform="translate(0.5 0.5)"
-          width={89}
+          width={120}
         />
         <text
           alignmentBaseline="hanging"
@@ -1657,11 +1606,11 @@ exports[`multiple input ports to one output port 1`] = `
           x={5}
           y={5}
         >
-          cc
+          #cj64v13mt0002baluv27c5a65
         </text>
         <g>
           <path
-            d="M 54.5 -2.5 L 54.5 22 "
+            d="M 60.5 138 L 60.5 148 L 20 148 L 20 20 L 57.5 20 L 57.5 30"
             fill="none"
             opacity={0.8}
             stroke="#333333"
@@ -1672,12 +1621,12 @@ exports[`multiple input ports to one output port 1`] = `
             fill="#333333"
             opacity={0.8}
             strokeWidth={3}
-            transform="translate(59 22) rotate(90) scale(3)"
+            transform="translate(62 30) rotate(90) scale(3)"
           />
         </g>
         <g>
           <path
-            d="M 54.5 65 L 54.5 79.5 "
+            d="M 60.5 138 L 60.5 148 L 20 148 L 20 20 L 77.5 20 L 77.5 30"
             fill="none"
             opacity={0.8}
             stroke="#333333"
@@ -1688,68 +1637,79 @@ exports[`multiple input ports to one output port 1`] = `
             fill="#333333"
             opacity={0.8}
             strokeWidth={3}
-            transform="translate(59 79.5) rotate(90) scale(3)"
+            transform="translate(82 30) rotate(90) scale(3)"
           />
         </g>
-        <rect
-          fill="white"
-          height={5}
-          stroke="#000"
-          width={5}
-          x={52}
-          y={-5}
-        />
-        <rect
-          fill="black"
-          height={5}
-          stroke="#000"
-          width={5}
-          x={22}
-          y={-5}
-        />
-        <rect
-          fill="black"
-          height={5}
-          stroke="#000"
-          width={5}
-          x={37}
-          y={-5}
-        />
-        <rect
-          fill="black"
-          height={5}
-          stroke="#000"
-          width={5}
-          x={52}
-          y={87}
-        />
         <g
-          transform="translate(42 37)"
+          transform="translate(35 45)"
         >
           <rect
-            fill="#fff"
-            height={23}
+            fillOpacity={0}
+            height={88}
             stroke="#000"
-            strokeWidth={3}
-            width={25}
+            strokeDasharray="10 5"
+            strokeOpacity={0.5}
+            strokeWidth={1}
+            transform="translate(0.5 0.5)"
+            width={65}
           />
           <text
-            alignmentBaseline="central"
+            alignmentBaseline="hanging"
             fill={null}
             fontFamily="sans-serif"
             fontSize={14}
-            textAnchor="middle"
-            x={12.5}
-            y={11.5}
+            opacity={0.5}
+            x={5}
+            y={5}
           >
-            a
+            cc
           </text>
+          <g>
+            <path
+              d="M 25.5 88 L 25.5 38"
+              fill="none"
+              opacity={0.8}
+              stroke="#333333"
+              strokeWidth={3}
+            />
+            <path
+              d="M0,0 L0,3 L3,1.5 L0,0"
+              fill="#333333"
+              opacity={0.8}
+              strokeWidth={3}
+              transform="translate(30 38) rotate(-90) scale(3)"
+            />
+          </g>
+          <g>
+            <path
+              d="M 39.5 48 L 39.5 58 L 40.5 58 L 40.5 78"
+              fill="none"
+              opacity={0.8}
+              stroke="#333333"
+              strokeWidth={3}
+            />
+            <path
+              d="M0,0 L0,3 L3,1.5 L0,0"
+              fill="#333333"
+              opacity={0.8}
+              strokeWidth={3}
+              transform="translate(45 78) rotate(90) scale(3)"
+            />
+          </g>
           <rect
             fill="white"
             height={5}
             stroke="#000"
             width={5}
-            x={10}
+            x={23}
+            y={88}
+          />
+          <rect
+            fill="black"
+            height={5}
+            stroke="#000"
+            width={5}
+            x={20}
             y={-5}
           />
           <rect
@@ -1757,9 +1717,55 @@ exports[`multiple input ports to one output port 1`] = `
             height={5}
             stroke="#000"
             width={5}
-            x={10}
-            y={23}
+            x={40}
+            y={-5}
           />
+          <rect
+            fill="black"
+            height={5}
+            stroke="#000"
+            width={5}
+            x={38}
+            y={88}
+          />
+          <g
+            transform="translate(20 20)"
+          >
+            <rect
+              fill="#fff"
+              height={23}
+              stroke="#000"
+              strokeWidth={3}
+              width={25}
+            />
+            <text
+              alignmentBaseline="central"
+              fill={null}
+              fontFamily="sans-serif"
+              fontSize={14}
+              textAnchor="middle"
+              x={12.5}
+              y={11.5}
+            >
+              a
+            </text>
+            <rect
+              fill="white"
+              height={5}
+              stroke="#000"
+              width={5}
+              x={3}
+              y={23}
+            />
+            <rect
+              fill="black"
+              height={5}
+              stroke="#000"
+              width={5}
+              x={17}
+              y={23}
+            />
+          </g>
         </g>
       </g>
     </g>

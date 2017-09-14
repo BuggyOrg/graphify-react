@@ -18,26 +18,25 @@ function Port ({ graph, port }) {
   )
 }
 
-function getPath (e, padding, startsAtParent = false) {
-  let path
-  if (startsAtParent) {
-    path = 'M ' + e.sourcePoint.x + ' ' + e.sourcePoint.y + ' '
-  } else {
-    path = 'M ' + (e.sourcePoint.x + padding.left) + ' ' + (e.sourcePoint.y + padding.top) + ' '
-  }
-  var bendPoints = e.bendPoints || []
+function getPath (e, startsAtParent = false) {
+  const section = e.sections[0]
+  const bendPoints = section.bendPoints || []
+
+  let path = `M ${section.startPoint.x} ${section.startPoint.y} `
   bendPoints.forEach((bp, i) => {
-    path += 'L ' + (bp.x + padding.left) + ' ' + (bp.y + padding.top) + ' '
+    path += `L ${bp.x} ${bp.y} `
   })
-  path += 'L ' + (e.targetPoint.x + padding.left) + ' ' + (e.targetPoint.y + padding.top - 10) + ' '
+  path += `L ${section.endPoint.x} ${section.endPoint.y - 10}`
   return path
 }
 
-function Edge ({ graph, parentNode, edge, padding = { top: 0, left: 0 }, ...other }) {
-  const endPoint = edge.targetPoint
-  const previousPoint = edge.bendPoints != null && edge.bendPoints.length > 0
-    ? edge.bendPoints[edge.bendPoints.length - 1]
-    : (edge.source === parentNode.id ? { x: edge.sourcePoint.x - padding.left, y: edge.sourcePoint.y - padding.top } : edge.sourcePoint)
+function Edge ({ graph, parentNode, edge, ...other }) {
+  const section = edge.sections[0]
+  const endPoint = section.endPoint
+  const previousPoint = section.bendPoints != null && section.bendPoints.length > 0
+    ? section.bendPoints[section.bendPoints.length - 1]
+    : (edge.source === parentNode.id ? { x: section.startPoint.x, y: section.startPoint.y } : section.startPoint)
+
   const angle = Math.atan2(endPoint.y - previousPoint.y, endPoint.x - previousPoint.x) * 180 / Math.PI
   const color = (edge.meta && edge.meta.style && edge.meta.style.color) || '#333333'
 
@@ -48,7 +47,7 @@ function Edge ({ graph, parentNode, edge, padding = { top: 0, left: 0 }, ...othe
         opacity={0.8}
         fill='none'
         stroke={color}
-        d={getPath(edge, padding, edge.source === parentNode.id)}
+        d={getPath(edge, edge.source === parentNode.id)}
         {...other}
       />
       <path
@@ -56,14 +55,14 @@ function Edge ({ graph, parentNode, edge, padding = { top: 0, left: 0 }, ...othe
         opacity={0.8}
         fill={color}
         d='M0,0 L0,3 L3,1.5 L0,0'
-        transform={`translate(${edge.targetPoint.x + padding.left + 4.5} ${edge.targetPoint.y + padding.top - 10}) rotate(${angle}) scale(3)`}
+        transform={`translate(${endPoint.x + 4.5} ${endPoint.y - 10}) rotate(${angle}) scale(3)`}
       />
     </g>
   )
 }
 
 function Node ({ graph, node, ...other }) {
-  const transform = `translate(${(node.x || 0) + (node.padding ? node.padding.left : 0)} ${(node.y || 0) + (node.padding ? node.padding.top : 0)})`
+  const transform = `translate(${(node.x || 0)} ${(node.y || 0)})`
 
   if (isCompound(node, graph)) {
     return (
@@ -98,7 +97,6 @@ function Node ({ graph, node, ...other }) {
             graph={graph}
             parentNode={node}
             edge={edge}
-            padding={node.padding}
           />
         ))}
         {Array.isArray(node.ports) && node.ports.map((port) => (
@@ -155,7 +153,7 @@ function Node ({ graph, node, ...other }) {
 
 function RootNode ({ graph, node }) {
   return (
-    <g transform={`translate(${-node.padding.left} ${-node.padding.top})`}>
+    <g>
       {Array.isArray(node.edges) && node.edges.map((edge) => (
         <Edge
           key={`e-${edge.source}-${edge.target}`}
@@ -186,8 +184,8 @@ export default function Graph ({ graph, translateX = 1, translateY = 1, scale = 
   return (
     <svg
       xmlns='http://www.w3.org/2000/svg'
-      width={graph.width - graph.padding.left - graph.padding.right}
-      height={graph.height - graph.padding.top - graph.padding.bottom}
+      width={graph.width}
+      height={graph.height}
       {...other}
     >
       <g transform={`scale(${scale}) translate(${translateX} ${translateY})`}>
