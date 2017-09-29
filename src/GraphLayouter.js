@@ -9,27 +9,32 @@ export default class GraphLayouter extends Component {
     this.state = {
       graph: null
     }
+  }
+
+  componentDidMount () {
     this.updateGraph(this.props.kgraph)
   }
 
-  componentWillReceiveProps (nextProps) {
-    if (nextProps.kgraph !== this.props.kgraph) {
-      this.setState({ graph: null })
-      this.updateGraph(nextProps.kgraph)
-    } else if (nextProps.options !== this.props.options) {
-      this.updateGraph(nextProps.kgraph)
+  componentWillReceiveProps ({ kgraph, options }) {
+    if (kgraph !== this.props.kgraph || options !== this.props.options) {
+      this.updateGraph(kgraph)
     }
   }
 
   updateGraph (kgraph) {
-    if (kgraph == null) return
-
-    layout(kgraph, calculateSize, this.props.options).then((graph) => {
-      if (this.props.kgraph === kgraph) {
-        this.setState({ graph })
-      }
-    })
-    .catch((e) => console.error(e))
+    if (kgraph == null) {
+      this.setState({ graph: null })
+    } else {
+      layout(kgraph, calculateSize, this.props.options).then((graph) => {
+        if (this.props.kgraph === kgraph) {
+          this.setState({ graph })
+        }
+      })
+      .catch((e) => {
+        this.setState({ graph: null })
+        console.error(e)
+      })
+    }
   }
 
   render () {
@@ -42,7 +47,7 @@ export default class GraphLayouter extends Component {
       ...other
     } = this.props
 
-    return graph != null ? (
+    return (
       <Graph
         graph={graph}
         translateX={translateX}
@@ -50,19 +55,17 @@ export default class GraphLayouter extends Component {
         scale={scale}
         {...other}
       />
-    ) : (
-      <svg {...other} />
     )
   }
 }
 
-export function layout (graph, calculateSize, options = {}) {
+export function layout (graph, calcSize = calculateSize, options = {}) {
   // wrap the given kgraph in another graph for layouting to support ports on the original root node
   graph = {
     id: `graphify_root_${Date.now()}`,
     children: [ graph ],
     edges: []
   }
-  return graphify.layout(graph, calculateSize, options)
+  return graphify.layout(graph, calcSize, options)
   .then((graph) => graph.children[0]) // unwrap the graph
 }
