@@ -45,7 +45,7 @@ export default class GraphLayouter extends Component {
         {...other}
       />
     ) : (
-      <svg />
+      <svg {...other} />
     )
   }
 }

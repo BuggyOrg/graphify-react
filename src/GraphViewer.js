@@ -76,7 +76,7 @@ export default class GraphViewer extends React.Component {
   }
 
   render () {
-    const { kgraph } = this.props
+    const { kgraph, ...other } = this.props
     const { transform } = this.state
 
     return (
@@ -91,6 +91,7 @@ export default class GraphViewer extends React.Component {
         onMouseUp={(event) => this.handleMouseUp(event)}
         onWheel={(event) => this.handleMouseWheel(event)}
         kgraph={kgraph}
+        {...other}
       />
     )
   }
