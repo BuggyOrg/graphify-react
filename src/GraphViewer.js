@@ -20,7 +20,8 @@ export default class GraphViewer extends React.Component {
       graph: null,
       transform: [0, 0, 1],
       mouseDown: false,
-      moveStartPosition: null
+      moveStartPosition: null,
+      manuallyMoved: false
     }
   }
 
@@ -32,11 +33,12 @@ export default class GraphViewer extends React.Component {
 
   updateGraph (kgraph) {
     if (kgraph == null) {
-      this.setState({ graph: null })
+      this.setState({ graph: null, manuallyMoved: false })
     } else {
       layout(kgraph).then((graph) => {
         if (this.props.kgraph === kgraph) {
-          this.setState({ graph, transform: this.getFittingTransform(graph) })
+          const transform = this.state.manuallyMoved ? this.state.transform : this.getFittingTransform(graph)
+          this.setState({ graph, transform })
           if (this.props.onError) {
             this.props.onError(null)
           }
@@ -97,7 +99,8 @@ export default class GraphViewer extends React.Component {
         moveStartPosition: {
           x: event.clientX,
           y: event.clientY
-        }
+        },
+        manuallyMoved: true
       })
     }
   }
@@ -131,7 +134,8 @@ export default class GraphViewer extends React.Component {
         offsetX - (mouse.x * zoom) / K,
         offsetY - (mouse.y * zoom) / K,
         scale + zoom
-      ]
+      ],
+      manuallyMoved: true
     })
   }
 
