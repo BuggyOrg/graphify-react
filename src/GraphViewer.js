@@ -30,13 +30,6 @@ export default class GraphViewer extends React.Component {
     }
   }
 
-  setGraph = (graph) => {
-    this._graph = graph
-    if (graph != null) {
-      this.updateGraph(this.props.kgraph)
-    }
-  }
-
   updateGraph (kgraph) {
     if (kgraph == null) {
       this.setState({ graph: null })
@@ -63,9 +56,11 @@ export default class GraphViewer extends React.Component {
   }
 
   getFittingTransform ({ width, height }) {
-    const boundingRect = findDOMNode(this._graph).getBoundingClientRect()
+    const boundingRect = findDOMNode(this).getBoundingClientRect()
     if (boundingRect.width > 0 && boundingRect.height > 0) {
-      const scale = Math.min(boundingRect.width / width, boundingRect.height / height)
+      let scale = boundingRect.width / width
+      if (scale * height > boundingRect.height) scale = boundingRect.height / height
+
       return [
         (boundingRect.width - width * scale) / 2 / scale,
         (boundingRect.height - height * scale) / 2 / scale,
@@ -88,7 +83,7 @@ export default class GraphViewer extends React.Component {
   }
 
   handleMouseMove (event) {
-    const boundingRect = findDOMNode(this._graph).getBoundingClientRect()
+    const boundingRect = findDOMNode(this).getBoundingClientRect()
     const posX = boundingRect.left
     const posY = boundingRect.top
     this.setState({ mousePosition: { x: event.clientX - posX, y: event.clientY - posY } })
@@ -152,7 +147,6 @@ export default class GraphViewer extends React.Component {
 
     return (
       <Graph
-        ref={this.setGraph}
         style={{ ...styles.container, ...style }}
         translateX={transform[0]}
         translateY={transform[1]}
