@@ -1,6 +1,7 @@
 import * as React from 'react'
 import { findDOMNode } from 'react-dom'
-import GraphLayouter from './GraphLayouter'
+import Graph from './Graph'
+import { layout } from './GraphLayouter'
 
 function translate (x, y, transform) {
   return [transform[0] + x, transform[1] + y, transform[2]]
@@ -16,9 +17,64 @@ export default class GraphViewer extends React.Component {
   constructor (props) {
     super(props)
     this.state = {
+      graph: null,
       transform: [0, 0, 1],
       mouseDown: false,
       moveStartPosition: null
+    }
+  }
+
+  componentWillReceiveProps ({ kgraph, options }) {
+    if (kgraph !== this.props.kgraph || options !== this.props.options) {
+      this.updateGraph(kgraph)
+    }
+  }
+
+  setGraph = (graph) => {
+    this._graph = graph
+    if (graph != null) {
+      this.updateGraph(this.props.kgraph)
+    }
+  }
+
+  updateGraph (kgraph) {
+    if (kgraph == null) {
+      this.setState({ graph: null })
+    } else {
+      layout(kgraph).then((graph) => {
+        if (this.props.kgraph === kgraph) {
+          this.setState({ graph, transform: this.getFittingTransform(graph) })
+        }
+      })
+      .catch((e) => {
+        this.setState({ graph: null })
+        console.error(e)
+      })
+    }
+  }
+
+  getFittingTransform ({ width, height }) {
+    const boundingRect = findDOMNode(this._graph).getBoundingClientRect()
+    if (boundingRect.width > 0 && boundingRect.height > 0) {
+      const scale = Math.min(boundingRect.width / width, boundingRect.height / height)
+      return [
+        (boundingRect.width - width * scale) / 2 / scale,
+        (boundingRect.height - height * scale) / 2 / scale,
+        scale
+      ]
+    } else {
+      return [0, 0, 1]
+    }
+  }
+
+  /**
+   * @public
+   */
+  scaleToFit () {
+    if (this.state.graph != null) {
+      this.setState({
+        transform: this.getFittingTransform(this.state.graph)
+      })
     }
   }
 
@@ -76,13 +132,13 @@ export default class GraphViewer extends React.Component {
   }
 
   render () {
-    const { kgraph, ...other } = this.props
-    const { transform } = this.state
+    const { kgraph, style, ...other } = this.props
+    const { graph, transform } = this.state
 
     return (
-      <GraphLayouter
-        ref={(graph) => { this._graph = graph }}
-        style={{ ...styles.container, ...this.props.style }}
+      <Graph
+        ref={this.setGraph}
+        style={{ ...styles.container, ...style }}
         translateX={transform[0]}
         translateY={transform[1]}
         scale={transform[2]}
@@ -90,7 +146,7 @@ export default class GraphViewer extends React.Component {
         onMouseDown={(event) => this.handleMouseDown(event)}
         onMouseUp={(event) => this.handleMouseUp(event)}
         onWheel={(event) => this.handleMouseWheel(event)}
-        kgraph={kgraph}
+        graph={graph}
         {...other}
       />
     )
