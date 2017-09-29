@@ -44,11 +44,20 @@ export default class GraphViewer extends React.Component {
       layout(kgraph).then((graph) => {
         if (this.props.kgraph === kgraph) {
           this.setState({ graph, transform: this.getFittingTransform(graph) })
+          if (this.props.onError) {
+            this.props.onError(null)
+          }
         }
       })
       .catch((e) => {
-        this.setState({ graph: null })
-        console.error(e)
+        if (!this.props.interactive) { // don't hide invalid graphs (e.g. while typing) in interactive mode
+          this.setState({ graph: null })
+        }
+        if (this.props.onError) {
+          this.props.onError(e)
+        } else {
+          console.error(e)
+        }
       })
     }
   }
@@ -132,7 +141,13 @@ export default class GraphViewer extends React.Component {
   }
 
   render () {
-    const { kgraph, style, ...other } = this.props
+    const {
+      interactive, // eslint-disable-line
+      kgraph,
+      onError, // eslint-disable-line
+      style,
+      ...other
+    } = this.props
     const { graph, transform } = this.state
 
     return (
