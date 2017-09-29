@@ -36,12 +36,18 @@ export default class GraphLayouter extends Component {
     const { graph } = this.state
     const {
       kgraph, // eslint-disable-line
+      translateX,
+      translateY,
+      scale,
       ...other
     } = this.props
 
     return graph != null ? (
       <Graph
         graph={graph}
+        translateX={translateX}
+        translateY={translateY}
+        scale={scale}
         {...other}
       />
     ) : (
